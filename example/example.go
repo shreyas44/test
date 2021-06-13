@@ -2,6 +2,7 @@ package example
 
 import "fmt"
 
-func init() {
-  fmt.Println("Hello World") 
+func Test() int {
+	fmt.Println("hello world")
+	return 10
 }
